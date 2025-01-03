@@ -4,7 +4,7 @@ Dotfiles for my custom [larbs.xyz](larbs.xyz) config in which I trim stuff I did
 To deploy them with my custom builds of DWM and friends, I made a script:
 
 ```jeff.sh
-curl -LO cleomancy.github.io/artixrice.sh
+curl -LO NOT READY YET
 ```
 
 Also taken from the larbs script but I made it not user friendly.
