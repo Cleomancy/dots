@@ -1,5 +1,5 @@
 # Glorious dotfiles
-Dotfiles for my custom [larbs.xyz](larbs.xyz) config in which I trim stuff I didn't need and changed some shortcuts.
+Dotfiles for my custom [larbs.xyz](https://larbs.xyz/) config in which I trim stuff I didn't need and changed some shortcuts.
 
 To deploy them with my custom builds of DWM and friends, I made a script:
 
