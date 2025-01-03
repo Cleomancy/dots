@@ -1,0 +1,19 @@
+# vim: filetype=conf
+
+ncmpcpp_directory = "~/.config/ncmpcpp"
+lyrics_directory = "~/.local/share/lyrics"
+mpd_music_dir = "~/Music"
+message_delay_time = "1"
+visualizer_type = "spectrum"
+playlist_display_mode = columns
+browser_display_mode = columns
+progressbar_look = =>
+media_library_primary_tag = album_artist
+media_library_albums_split_by_date = no
+startup_screen = "media_library"
+display_volume_level = yes
+ignore_leading_the = yes
+external_editor = nvim
+use_console_editor = yes
+execute_on_song_change="pkill -RTMIN+1 dwmblocks"
+execute_on_player_state_change="pkill -RTMIN+1 dwmblocks"

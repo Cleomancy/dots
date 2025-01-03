@@ -1,0 +1,11 @@
+setxkbmap fr &
+redshift -P -O 2500 &
+/usr/bin/wireplumber &
+/usr/bin/pipewire &
+/usr/bin/pipewire-pulse &
+/usr/bin/mpd &
+remapd &
+xcompmgr &
+setbg &
+dwmblocks &
+dwm
