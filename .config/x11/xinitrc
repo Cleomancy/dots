@@ -1,0 +1,12 @@
+setbg &			# set the background with the `setbg` script
+/usr/bin/pipewire &
+/usr/bin/pipewire-pulse &
+autostart="mpd xcompmgr dunst /usr/bin/wireplumber remapd"
+
+for program in $autostart; do
+	pidof -sx "$program" || "$program" &
+done >/dev/null 2>&1
+
+setxkbmap fr &
+dwmblocks &
+dwm
