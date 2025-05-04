@@ -31,7 +31,7 @@ set fillchars=fold:\ ,vert:\|
 
 " Paste mode toggle, it seems that Neovim's bracketed paste mode
 " does not work very well for nvim-qt, so we use good-old paste mode
-set pastetoggle=<F12>
+" set pastetoggle=<F12>
 
 " Split window below/right when creating horizontal/vertical windows
 set splitbelow splitright
@@ -95,7 +95,7 @@ set undofile
 " see https://stackoverflow.com/q/4760428/6064933
 set nojoinspaces
 
-set go=a
+" set go=a
 set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
